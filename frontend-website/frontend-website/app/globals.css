@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  /* Luxurious Palette */
+  --color-black-primary: #0A0A0A;
+  --color-black-secondary: #161616;
+  --color-gray-soft: #2E2E2E;
+  --color-gold-accent: #D4AF37;
+  --color-gold-light: #F4D03F;
+  --color-white: #FFFFFF;
+  
+  --background: var(--color-black-primary);
+  --foreground: var(--color-white);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--color-gold-accent);
+  --color-gold-light: var(--color-gold-light);
+  --color-charcoal: var(--color-black-secondary);
+  --color-surface: var(--color-gray-soft);
+  
+  --font-sans: var(--font-geist-sans), "Inter", sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 50%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 50%, #D4AF37 100%);
+  }
+
+  .glass-panel {
+    background: rgba(22, 22, 22, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.1);
+  }
+}
