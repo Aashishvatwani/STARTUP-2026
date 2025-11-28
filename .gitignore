@@ -69,3 +69,21 @@ docs/
 documentation/
 test-docs/
 
+# Explicitly un-ignore requested paths
+!/.venv/
+!DOCKER_GUIDE.md
+!NLP_API_GUIDE.md
+!RAZORPAY_TEST_GUIDE.md
+!README.md
+!backend/.env
+!frontend-website/node_modules/
+!nlpservice/.venv/
+!nlpservice/python/.pytest_cache/
+!nlpservice/python/README.md
+!nlpservice/python/__pycache__/
+!nlpservice/python/data/
+!nlpservice/python/models_refund/
+!nlpservice/python/models_refund_hf/
+!nlpservice/python/results.json
+!test-docs/
+
