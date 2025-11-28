@@ -1,0 +1,19 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+scikit-learn
+joblib
+pandas
+numpy
+dateparser
+pydantic
+pytest
+requests
+httpx
+Image
+requests==2.32.5
+# Optional (heavy) deps required to run the real HF pipeline:
+# transformers
+# torch
+# spacy
+# spacy-langdetect

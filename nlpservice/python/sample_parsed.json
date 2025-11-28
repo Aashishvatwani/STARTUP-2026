@@ -1,0 +1,16 @@
+{
+  "type": "Report",
+  "topic": "Image Classification",
+  "domain": "AI/ML",
+  "pages": 4,
+  "deadline": "2025-11-02T23:59:00Z",
+  "urgency": "High",
+  "skills_required": ["Machine Learning", "Python"],
+  "estimated_price": 350,
+  "raw_text": "Need help with a 4-page AI report on image classification, due tonight",
+  "raw_entities": {
+    "PAGES": ["4-page"],
+    "DEADLINE": ["tonight"],
+    "TOPIC": ["image classification"]
+  }
+}

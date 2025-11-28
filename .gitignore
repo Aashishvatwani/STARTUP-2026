@@ -1,0 +1,72 @@
+# Ignore everything by default
+# Root .gitignore for the Homeworking-2 workspace
+# Keep repository files tracked by default; ignore common artifacts, secrets, and large generated outputs.
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# Node
+node_modules/
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+*.env
+secrets.json
+
+# Build / dist
+dist/
+build/
+.next/
+
+# Test / coverage
+.pytest_cache/
+.tox/
+coverage/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Large/generated data & models (ignore unless you want them tracked)
+nlpservice/python/data/
+nlpservice/python/results.json
+nlpservice/python/results.csv
+nlpservice/python/models_refund/
+nlpservice/python/models_refund_hf/
+*.joblib
+*.pt
+*.pth
+
+# Package managers
+.npm
+.yarn
+
+# Misc temp
+*~
+*.tmp
+*.bak
+
+# Keep documentation and README files
+*.md
+docs/
+documentation/
+test-docs/
+

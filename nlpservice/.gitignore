@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+tox.ini
+
+# Virtualenv
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyBuilder
+.pybuilder/
+
+# mypy
+.mypy_cache/
+
+# Rope
+.ropeproject
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+*.env
+secrets.json
+
+# Data and model artifacts (exclude large generated datasets and models)
+data/
+results.json
+results.csv
+*.csv
+models_refund/
+models_refund_hf/
+*.joblib
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.bak
+*~

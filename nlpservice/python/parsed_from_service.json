@@ -1,0 +1,22 @@
+{
+  "type": "Assignment",
+  "topic": "a physical education assignment",
+  "domain": "General",
+  "pages": 6,
+  "deadline": null,
+  "urgency": "Medium",
+  "skills_required": [
+    "R"
+  ],
+  "estimated_price": 400.0,
+  "raw_text": "Need a physical education assignment on basketball strategies, 6 pages, due next week.",
+  "raw_entities": {
+    "PAGES": [
+      "6"
+    ],
+    "DEADLINE": [],
+    "TOPIC": [
+      "a physical education assignment"
+    ]
+  }
+}
