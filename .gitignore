@@ -60,7 +60,6 @@ nlpservice/python/models_refund_hf/
 .yarn
 
 # Misc temp
-*~
 *.tmp
 *.bak
 
