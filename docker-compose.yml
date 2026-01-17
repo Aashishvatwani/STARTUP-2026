@@ -60,11 +60,11 @@ services:
       - nlp-service
     environment:
       # Use your MongoDB Atlas connection or local mongo
-      - MONGO_URI=${MONGO_URI:-mongodb+srv://aashishvatwani0011_db_user:a45GUGncqbXvLkHh@cluster011.q3zg6u5.mongodb.net/?appName=Cluster011}
+      - MONGO_URI=${MONGO_URI}
       - NLP_SERVICE_URL=http://nlp-service:8000
-      - JWT_SECRET=${JWT_SECRET:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjMiLCJuYW1lIjoiQWxpY2UiLCJpYXQiOjE3NjIxNzU5MTIsImV4cCI6MTc2MjE3OTUxMn0.kmGYC6SCc_lWyzNnz3c3DpCmmYGrOG4Z-v0B8hYtT_Y}
-      - RAZORPAY_KEY_ID=${RAZORPAY_KEY_ID:-rzp_test_RbKkpxmMLy3Inb}
-      - RAZORPAY_KEY_SECRET=${RAZORPAY_KEY_SECRET:-PxaudA5xTRiGHKyp1ad5xZyq}
+      - JWT_SECRET=${JWT_SECRET}
+      - RAZORPAY_KEY_ID=${RAZORPAY_KEY_ID}
+      - RAZORPAY_KEY_SECRET=${RAZORPAY_KEY_SECRET}
       - PORT=8080
     ports:
       - "8080:8080"
